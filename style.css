@@ -1,0 +1,35 @@
+
+tr:nth-child(odd){
+  background-color: #c0c0c0;
+}
+tr:nth-child(even){
+  background-color: #aaaaaa;
+}
+body {
+ background-image: url("bg.jpg");
+ font-size: 13px;
+ text-align: left;
+}
+table
+{
+font-family: Roboto, Helvetica, sans-serif;
+width: 500px;
+height:400px;
+margin-left: auto;
+margin-right: auto;
+margin-top:300px;
+border-style:solid;
+border-width:1px;
+border-color:black;
+}
+th{
+    background-color:#4caf50;
+}
+
+div{
+margin-left: auto;
+margin-right: auto;
+width: 140px;
+text-align: right; 
+color:white;
+}
